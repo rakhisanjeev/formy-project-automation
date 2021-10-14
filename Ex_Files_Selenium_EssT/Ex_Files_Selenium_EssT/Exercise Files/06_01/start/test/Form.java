@@ -19,7 +19,7 @@ public class Form {
         driver.findElement(By.id("checkbox-2")).click();
         driver.findElement(By.cssSelector("option[value='1']")).click();
         driver.findElement(By.id("datepicker")).sendKeys("07/07/2022");
-        //driver.findElement(By.id("datepicker")).sendKeys(Keys.RETURN);
+        driver.findElement(By.id("datepicker")).sendKeys(Keys.RETURN);
         driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
         Thread.sleep(3000);
 
