@@ -25,6 +25,8 @@ public class Autocomplete {
         Thread.sleep(3000);
         //Making change
 
+        //fixed the issue defectid222
+
         driver.quit();
     }
 }
